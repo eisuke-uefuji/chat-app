@@ -17,21 +17,7 @@
 
 <%# メイン中央 %>
 <div class="main-middle">
-  <div class="message">
-    <div class="upper-message">
-      <div class="message-user">
-        Tom
-      </div>
-      <div class="message-date">
-       2023/10/11
-      </div>
-    </div>
-    <div class="lower-message">
-      <div class="message-content">
-       おはよう
-      </div>
-    </div>
-  </div>
+  <%= render partial: 'message', collection: @messages %>
 
 </div>
 
